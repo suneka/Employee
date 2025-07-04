@@ -53,6 +53,10 @@ employeeService es;
 public String geta() {
 	return "Print";
 }
+@GetMapping("/path")
+public String getb() {
+	return "Print A";
+}
 
 }
 
