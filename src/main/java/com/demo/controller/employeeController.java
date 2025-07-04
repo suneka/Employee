@@ -61,5 +61,13 @@ public String getb() {
 public String getc() {
 	return "Print B";
 }
+
+@GetMapping("/path3")
+public String getc1() {
+	return "Print B";
+}
+	@GetMapping("/path2")
+	public String getc2() {
+		return "Print B";
 }
 
