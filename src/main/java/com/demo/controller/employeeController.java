@@ -57,6 +57,9 @@ public String geta() {
 public String getb() {
 	return "Print A";
 }
-
+@GetMapping("/path1")
+public String getc() {
+	return "Print B";
+}
 }
 
