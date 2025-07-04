@@ -49,7 +49,10 @@ employeeService es;
 	public String PatchValues(@PathVariable int a, @RequestBody employeeEntity e1) {
 		return es.patchValues(a, e1);
 	}
-
+@GetMapping("/print")
+public String geta() {
+	return "Print";
+}
 
 }
 
